@@ -44,17 +44,23 @@ As a developer who writes about tech, I want a CMS-style blog site so that I can
  - WHEN I am idle on the site for more than a set time
  - THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 
+
 ## Installation
 
-
-
-## Images
+ - Node, 'npm init'
+ - Express-handlebars, 'npm i express-handlebars'
+ - Sequelize, 'npm i sequelize'
+ - MySql, 'npm i mysql2'
+ - dotenv package, 'npm i dotenv'
+ - bcyrpt, 'npm i bcyrpt'
+ - Express session, 'npm i express-session'
+ - Connect session sequelize, 'npm i connect-session-sequelize'
 
 
 
 ## Credits
 
-
+Stack Overflow
 
 ## License 
 
