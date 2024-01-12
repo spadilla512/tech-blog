@@ -1,0 +1,24 @@
+async function newPostHandler(event) {
+    event.preventDefault();
+
+    const title = document.querySelector("#titleInput").value.trim();
+    const description = document.querySelector("#bodyInput").value.trim();
+
+    if (title && description) {
+        const response = await fetch(`/api/blogPost`, {
+            method: "POST",
+            body: JSON.stringify({
+                title,
+                description,
+            }),
+        });
+        if (response.ok) {
+            document.location.replace("/dashboard");
+        } else {
+            alert(response.statusText);
+        }
+    }
+}
+document
+    .querySelector(".createBlogPost")
+    .addEventListener("submit", newPostHandler);
