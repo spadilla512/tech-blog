@@ -6,7 +6,8 @@ CMS-style blog site where developers can publish their blog posts and comment on
 
 ## User Story
 
-As a developer who writes about tech, I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions.
+```md
+As a developer who writes about tech, I want a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions.```
 
 ## Acceptance Criteria
 
